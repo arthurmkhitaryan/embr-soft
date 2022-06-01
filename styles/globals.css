@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Game Of Squids';
+  src: url('../public/assets/fonts/GameOfSquids/GameOfSquids.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../public/assets/fonts/Calibri/Calibri_Light.ttf');
+  src: url('../public/assets/fonts/Calibri/Calibri_Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url('../public/assets/fonts/Calibri/Calibri_Bold.TTF');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Calibri, Calibri Bold, Game Of Squids;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
