@@ -1,0 +1,1 @@
+export { BannerInfo } from './BannerInfo';
